@@ -10,6 +10,7 @@
 
     ~/.vim: vim/
     ~/.vimrc: vimrc
+    ~/.config: config/
 
 - shell:
     - mkdir -p ~/.vim/swap ~/.vim/backup ~/.vim/undo

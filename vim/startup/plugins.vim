@@ -108,6 +108,7 @@ Plugin 'Valloric/YouCompleteMe'
 let g:ycm_confirm_extra_conf = 0
 let g:ycm_autoclose_preview_window_after_insertion = 1
 let g:ycm_always_populate_location_list = 1
+let g:ycm_register_as_syntastic_checker = 0
 let g:ycm_filetype_specific_completion_to_disable = { 'c': 0, 'cpp': 0 }
 let g:ycm_global_ycm_extra_conf = '~/.ycm_default_conf.py'
 let g:ycm_seed_identifiers_with_syntax = 1
